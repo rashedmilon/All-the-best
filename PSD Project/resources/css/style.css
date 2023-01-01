@@ -1,0 +1,129 @@
+
+/* =======
+Template Name: Paul
+Template URI: https://rashed.dev/projects/paul-lapkin/
+Author: Rashed
+Author URI: https:// rahshed.me/
+Description: A simple HTML5 portfolio template.
+Versons: 1.0
+Tags: Paul, Lapkin,Vendors, resources
+======== */
+
+/* CSS INDEX
+
+0.COMMON CSS
+01.RESABLE COMPONENT
+02.HERO SECTION
+03.Animation
+04.
+
+*/
+
+
+/* COMMON CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* REUSABLE COMPONENT */
+.container{
+    max-width: 1100px;
+    margin: auto;
+    
+}
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+/* hero section */
+#hero{
+    height: 100vh;
+    background: rgba(0,0,0,0.5) url(./img/hero.jpg) no-repeat center top/cover;
+    background-blend-mode: overlay;
+    position: relative;
+}
+.nav{
+    padding-top: 40px;
+}
+.logo{
+    float: left;
+}
+.menu{
+    float: right;
+}
+.menu a ion-icon{
+    font-size: 40px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hero-content h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #ffff;
+    border-top: 3px solid #ffff;
+    border-bottom: 3px solid #ffff;
+}
+.hero-content span{
+    font-size: 20px;
+    color: #ffff;
+}
+.next-section{
+    text-align: center;
+}
+.next-section a{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.next-section a ion-icon{
+    color: #ffff;
+    font-size: 40px;
+    position: relative;
+    animation: arrow 2s ease-in infinite;
+}
+/* Animation */
+@keyframes arrow{
+    0%{
+        top: 10px;
+    }
+    45%{
+        top: 30px;
+    }
+    100%{
+        top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
